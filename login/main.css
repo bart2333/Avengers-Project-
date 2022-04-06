@@ -1,0 +1,143 @@
+/* styles for the HTML elements on the team lead home page */
+
+html {
+	background-color: rgb(217, 57, 42);
+}
+
+body {
+	width: auto;
+}
+
+/* changing the anchor tags to automatically display in all uppercase*/
+a {
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+/* formatting the navigation bar along with the sub navigation bar*/
+.navbar {
+	background: #333;
+}
+
+.navbar:after {
+	content: '';
+	clear: both;
+	display: block;
+}
+
+.navbar ul {
+	list-style: none;
+	margin: 0;
+}
+
+.navbar > ul > li {
+	float: right;
+	position: relative;
+}
+
+.navbar ul li a {
+	text-decoration: none;
+	color: white;
+	padding: 10px 10px;
+	display: block;
+}
+
+.navbar ul li:hover a {
+	background: #ad0000;
+}
+
+.navbar ul ul {
+	position: absolute;
+	padding: 0;
+	min-width: 180px;
+	display: none;
+	top: 100%;
+	left: 0;
+}
+
+.navbar ul li:hover > ul {
+	display: block;
+}
+
+.navbar ul ul li:hover a {
+	background: #C0C0C0;
+}
+
+.navbar ul ul li {
+	position: relative;
+}
+
+.logout {
+	float: right;
+}
+
+.lougout2 ul li:hover a {
+	background: #ad0000;
+}
+
+.logout2 a {
+	text-decoration: none;
+	color: white;
+	margin: 0;
+}
+
+/* formatting the picture display as part of a display banner at the top of the page*/
+.header { 
+	background-color: #919191;	
+	max-width: 100%
+}
+
+.header2 {
+	background-color: black;
+	height: 80px;
+	max-width: 100%
+}
+
+.img {
+	max-width: 100%;
+	border-radius: 6px;
+	height: auto;
+	float: left;
+}
+
+h3 {
+	color: white;
+	font-size: 18px;
+}
+h4 {
+ color: black;
+	font-size: 18px;
+}
+	
+main {
+	padding: 10px;
+}
+
+.floating-label {
+	position: center;
+	font-size: 250px;
+}
+
+.floating-label2 {
+	position: relative;
+}
+
+.entryForm {
+	padding: 12px;
+	text-align: center;
+	background: #333;
+	color: white;
+	margin-left: 35%;
+	margin-right: 35%;
+}
+
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-size: 11px;
+}

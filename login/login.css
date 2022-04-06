@@ -1,0 +1,89 @@
+/* styles for the HTML elements on the login page */
+
+html {
+	background-color: rgb(217, 57, 42);
+}
+
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-size: 11px;
+}
+
+h4 {
+	font-size: 5 px;
+	font-weight: 200;
+	color: #1E90FF;
+	opacity: .85;
+	text-align: left;
+}
+
+h3 {
+	font-size: 25px;
+	font-weight: 400;
+	color: #000;
+	opacity: .85;
+}
+
+body { 
+	text-align: center;
+}
+
+.header {
+	background-color: white;
+	height: 125px;
+	width: 100%;
+}
+
+
+img {
+	max-width: 100%;
+	height: 125px;
+}
+
+
+form {
+	padding: 40px 30px;
+	background: #d4d6cc;
+	display: inline-block;
+	flex-direction: column;
+	align-items: flex-start;
+	width: 200px;
+	border-radius: 10px;
+}
+
+/* adds a focus to the text boxes for log in when they are selected */
+input[type=text]:focus {
+	background-color: #1c8dc9;
+}
+
+/* this is for the icon next to the email  */
+input[type=text] {
+	
+}
+
+input[type=submit] {
+	background-color: rgb(217, 57, 42);
+	color: white;
+	margin: 7px 5px;
+	border-radius: 8px;
+	border: 1px solid black;
+	font-size: 19px;
+	float: right;
+	cursor: pointer;
+}
+
+.floating-label {
+	position: relative;
+	font-size: 250px;
+}
+
+.floating-label2 {
+	position: relative;
+}
+

@@ -1,0 +1,356 @@
+/* styles for the HTML elements on the team lead home page */
+
+html {    
+	background-color: rgb(217, 57, 42);
+}
+
+body {
+	width: auto;
+}
+
+/* changing the anchor tags to automatically display in all uppercase*/
+a {
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+/* formatting the navigation bar along with the sub navigation bar*/
+.navbar {
+	background: #333;
+}
+
+.navbar:after {
+	content: '';
+	clear: both;
+	display: block;
+}
+
+.navbar ul {
+	list-style: none;
+	margin: 0;
+}
+
+.navbar > ul > li {
+	float: left;
+	position: relative;
+}
+
+.navbar ul li a {
+	text-decoration: none;
+	color: white;
+	padding: 10px 10px;
+	display: block;
+	font-size: 13px;
+}
+
+.navbar ul li:hover a {
+	background: #ad0000;
+}
+
+.navbar ul ul {
+	position: absolute;
+	padding: 0;
+	min-width: 180px;
+	display: none;
+	top: 100%;
+	left: 0;
+}
+
+.navbar ul li:hover > ul {
+	display: block;
+}
+
+.navbar ul ul li:hover a {
+	background: #C0C0C0;
+}
+
+.navbar ul ul li {
+	position: relative;
+}
+
+.logout {
+	float: right;
+}
+
+.lougout2 ul li:hover a {
+	background: #ad0000;
+}
+
+.logout2 a {
+	text-decoration: none;
+	color: white;
+	margin: 0;
+}
+
+/* formatting the picture display as part of a display banner at the top of the page*/
+.header { 
+	background-color: #919191;	
+	max-width: 100%;
+
+}
+
+.header2 {
+	background-color: black;
+	height: auto;
+	max-width: 100%;
+	
+}
+
+.img {
+	max-width: 100%;
+	border-radius: 6px;
+	height: auto;
+	float: left;
+}
+
+.greeting {
+	float: right;
+	width: auto;
+	
+}
+
+h1 {
+	color: white;
+	font-size: 26px;
+}
+h3 {
+	color: white;
+	font-size: 18px;
+}
+h4 {
+ color: black;
+	font-size: 18px;
+}
+	
+main {
+	padding: 10px;
+}
+
+.side1 {
+	float: left;
+	border-radius: 50px;
+	color: black;
+    margin-left: 5%;
+    width: 20%; 
+	height: 450px;
+	background-color:white; 
+	margin-top: 1%;
+	height: auto;
+	min-height: 300px; 
+	
+}
+
+div.side2 {
+	float: left;
+	border-radius: 50px;
+	color: black;
+    margin-left: 15%;
+    width:20%; 
+	height: 450px;
+	text-align:left;
+	background-color:white; 
+	margin-top: 1%;
+	height: auto;
+	min-height: 300px; 
+}
+
+.panel {
+	float: left;
+	width: 4%;
+}
+
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-size: 11px;
+}
+
+.entryForm {
+	padding: 12px;
+	text-align: right;
+	background: #333;
+	color: white;
+}
+
+.entryForm2 {
+	padding: 12px;
+	text-align: left;
+	background: #333;
+	color: white;
+}
+
+.pdForm {
+	padding: 8px;
+	text-align: center;
+	background: #333;
+	width: 325px;
+	margin-left: 40%;	
+	color: white;
+}
+
+h5 {
+	color: red;
+	font-size: 8px;
+}
+
+/************below this added 2-5 *************/
+
+
+fieldset {     /* This gets rid of the weird border around it*/
+    border: 0;
+	padding-bottom: 15px;
+}
+
+input[name="register"] {
+	cursor: pointer;
+}
+
+input[class=std_button]{ /* all buttons of this 'class' */
+/* enlarges button*/
+   
+	padding: 10px 17px 10px 17px;
+	margin-top : 45px;
+	margin-right : 35px;
+	text-align: center; 
+	cursor: pointer;	
+}
+
+li {
+    max-width:335px;
+    word-wrap:break-word;
+	text-align:left;
+}
+
+dinput {
+    width: 100px;
+    margin: 13px;
+	font-weight: bold;
+	font-size: 10pt;
+    border: 1px solid;
+	
+}
+label {
+	font-weight: bold;
+	font-size: 12pt;
+}
+textarea  
+{  
+   font-family:"Arial";  
+   font-size: 14px; 
+   background-color: #d4d4d4;
+   resize: none;
+}
+input[class=create_project]{   /*use [class=create_project] for specific inputs - all one css file  */ 
+	width: 20%;
+	background-color: #d4d4d4;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+select[name=account_id]{
+   font-family:"Arial";  
+   font-size: 14px; 
+   background-color: #d4d4d4;
+   width: 20%;
+}
+
+fieldset[name=delete_page_info]{
+	background-color: #d4d4d4;
+	font-size: 16px; 
+	width: 30%;
+	margin-bottom: 95px;
+	
+}
+
+ul[class = dueDates]{
+	list-style-type: none;	
+	font-weight: bold;
+	display: block;
+    text-align: left;
+}
+
+fieldset[class=grayBox]{
+width: 500px; float:left; border: thick solid; background: #C0C0C0; margin-left: 8%;
+}
+.pdForm2 {
+	padding: 8px;
+	text-align: center;
+	background: #333;
+	width: auto;
+	margin-left: 10%;	
+	color: white;
+	margin-right: 10%;
+}
+
+.pdForm3 {
+	padding: 8px;
+	text-align: center;
+	background: #333;
+	width: auto;
+	margin-left: 22%;	
+	color: white;
+	margin-right: 15%;
+}
+
+input.pdForm4 {
+	cursor: pointer;
+}
+
+.pdForm4 {
+	padding: 8px;
+	text-align: center;
+	background: #333;
+	width: 450px;
+	margin-left: 35%;	
+	color: white;
+}
+
+table, th, td {
+	border: 1px double red;
+	font-size:20px;
+	width:auto;
+	color: white;
+	text-align: left;
+	padding:10px
+}
+
+ul.reportNames {
+	list-style-type: none;
+	cursor: pointer;
+}
+
+table, th, td[class=blackBox] {
+	
+	background: #333;
+	font-size:20px;
+	width:auto;
+	color: white;
+	text-align: left;
+	padding:20px
+}
+aside {
+	width: 20%;
+	float: left;
+	background-color: #333;
+	display: block;
+	color: white;
+}
+
+aside ul li {
+	text-decoration: none;
+	color: white;
+}
+
+.report {
+	padding: 8px;
+	text-align: center;
+	background: #333;
+	width: auto;
+	margin-left: 23%;	
+	color: white;
+}
