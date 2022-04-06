@@ -46,9 +46,9 @@ $stmt2->closeCursor();
 					</tr>
 					<?php foreach($emailsPD as $emailPD): ?>
 					<tr>
-						<td><?php echo $emailPD['dir_lname'] ++; ?> </td>
-						<td><?php echo $emailPD['dir_fname'] ++; ?> </td>
-						<td><?php echo '<a  style="color:white" href="mailto:' . $emailPD['username'] ++ . '">' . $emailPD['username'] . '</a>';?></td>
+						<td><?php echo $emailPD['dir_lname']; ?> </td>
+						<td><?php echo $emailPD['dir_fname']; ?> </td>
+						<td><?php echo '<a style="color:white" href="mailto:' . $emailPD['username'] . '">' . $emailPD['username'] . '</a>';?></td>
 					</tr>
 					<?php endforeach; ?>
 					<?php foreach($emailsST as $emailST): ?>

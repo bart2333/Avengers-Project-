@@ -143,7 +143,7 @@ $query = 'UPDATE task_list
 			<td> 
 				<form action="" method="post">
 				<input type = "hidden" name = "task_list_id" value = "<?php echo $task_list['task_list_id'];?>">
-				<input type = "submit" name="completed" value ="<?php if($task_list['is_complete'] == 'N'){ ?><?php echo "mark complete";}?> <?php if($task_list['is_complete'] == 'Y') { ?> <?php echo "mark not complete"; }?> ">
+				<input type = "submit" name="completed" value ="<?php if($task_list['is_complete'] == 'N'){ ?><?php echo "Mark Complete";}?> <?php if($task_list['is_complete'] == 'Y') { ?> <?php echo "Mark Not Complete"; }?> ">
 			</form>	 
 			</td>	 
 		</tr>
